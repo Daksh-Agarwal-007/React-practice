@@ -21,13 +21,10 @@ function Home() {
                     source toolkit!
                   </p>
                   <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                    <a
-                      className="btn btn-primary btn-lg px-4 me-sm-3"
-                      href="#features"
-                    >
+                    <a className="btn btn-primary btn-lg px-4 me-sm-3">
                       Get Started
                     </a>
-                    <a className="btn btn-outline-light btn-lg px-4" href="#!">
+                    <a className="btn btn-outline-light btn-lg px-4">
                       Learn More
                     </a>
                   </div>
@@ -43,7 +40,7 @@ function Home() {
             </div>
           </div>
         </header>
-        <section className="py-5" id="features">
+        <section className="py-5">
           <div className="container px-5 my-5">
             <div className="row gx-5">
               <div className="col-lg-4 mb-5 mb-lg-0">
@@ -131,7 +128,7 @@ function Home() {
               </div>
             </div>
             <div className="row gx-5">
-              <Card/>
+              <Card />
               <div className="col-lg-4 mb-5">
                 <div className="card h-100 shadow border-0">
                   <img
